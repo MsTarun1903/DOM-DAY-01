@@ -9,12 +9,12 @@ body {
   max-width: 800px; 
 }
 
-p{
+#dateDisplay{
   text-align: center;
   margin: 0 auto;
   max-width: 300px;
   padding: 5px 3px;
-  border: 2px;
+  border: 2px solid;
   width: auto;
   
 }
