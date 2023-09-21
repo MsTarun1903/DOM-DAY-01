@@ -1,7 +1,7 @@
 //DOM DAY 01
 // Code to change the year for every 1 second 
 const year = document.getElementById('yearNumber');
-year.style.fontSize = '24px'
+year.style.fontSize = '100px'
 const colors = ['red','blue','green','yellow','orange','brown'];
 
 setInterval(()=>{
