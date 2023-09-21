@@ -31,7 +31,7 @@ const yearBox = document.getElementById("dateDisplay");
 const boxColors = ['orange','beige','aqua','blueviolet','yellowgreen'];
 setInterval(()=>{
   const randomBoxColor = boxColors[Math.floor(Math.random() * boxColors.length)];
-  yearBox.style.color = randomBoxColor;
+  yearBox.style.backgroundColor = randomBoxColor;
 },1000)
 
 //Code to change the background color of the boxes using the DOM
